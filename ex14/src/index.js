@@ -2,10 +2,9 @@ function myForLoop1() {
     var evenNumbers = "";
 
     for (var i = 0; i < 10; i += 2) {
-        //evenNumbers += i;
-        //if (i < 8) {
+
         evenNumbers += i + "," + " ";
-        //}
+
     }
     return evenNumbers;
 }
